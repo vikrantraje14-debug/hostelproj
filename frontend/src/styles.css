@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gov-ink: #1b2b34;
+  --color-gov-muted: #52636a;
+  --color-gov-border: #d6dfdc;
+  --color-gov-page: #f3f6f5;
+  --color-gov-green: #176448;
+  --color-gov-green-dark: #104b36;
+  --color-gov-gold: #b77b26;
+  --font-display: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+:root {
+  color: #1b2b34;
+  background: #f3f6f5;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+a {
+  text-underline-offset: 0.2em;
+}
+
+:focus-visible {
+  outline: 3px solid #b77b26;
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  z-index: 50;
+  left: 1rem;
+  top: 1rem;
+  transform: translateY(-200%);
+  border-radius: 2px;
+  background: #fff;
+  padding: 0.75rem 1rem;
+  color: #104b36;
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+dialog[open] {
+  margin: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

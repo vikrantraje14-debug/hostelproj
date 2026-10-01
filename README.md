@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Government Hostel Admission Portal
 
 A React/Vite frontend and Express/PostgreSQL API for a hostel admissions portal. The application includes public information pages, student accounts and applications, private document uploads, application status history, admin review, and admin-managed public content.
@@ -61,3 +62,6 @@ Seed data is disabled by default. The seed command requires `NODE_ENV=developmen
 ## Deployment Status
 
 This repository contains deployment guidance only. No production deployment, live database migration, backup job, or production storage service has been performed or configured here.
+=======
+# hostelproj
+>>>>>>> ceb1ff7652fe1a3be4081ec7a0e951b58f20ab77
